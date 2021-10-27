@@ -1,0 +1,12 @@
+const express = require('express')
+require("dotenv").config({ path: "./config/.env" })
+const CONNECTDB = require("./config/connectdb")
+const app = express()
+const port = 5000
+CONNECTDB()
+app.use(express.json())
+app.use('/donate',require('./Routes/DonateRouters'))
+app.use('/charity',require('./Routes/CharityRouter'))
+app.use('/volunteer',require('./Routes/VolunteerRouter'))
+app.use('/posts',require('./Routes/PostsRouter'))
+app.listen(port, (error) => error ?console.log(error):console.log(`Server listening on port ${port}!`))

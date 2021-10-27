@@ -1,0 +1,32 @@
+p{
+    width: 300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(51, 10, 88) !important;
+}
+.footer1{
+     width:100%;
+    height: 300px;
+    background-color: rgb(127, 161, 199);
+    display:flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+img{
+    width:200px;
+    height:200px;
+    margin-top:50px ;
+}
+.cont{
+    margin-top: 50px;
+    font-style: italic;
+
+}
+.contac{
+    font-size: x-large;
+    color:rgb(51, 10, 88)
+}
+
+h1{
+    color:rgb(66, 16, 90)
+}

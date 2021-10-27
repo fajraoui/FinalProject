@@ -1,0 +1,73 @@
+
+.begin{
+    display:flex;
+}
+.begin img{
+    width:700px;
+    height:300px;
+   opacity: 0.7;
+}
+
+.testo {
+    margin-top: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.testo h1{
+    font-size: xx-large;
+    color: rgb(89, 15, 173);
+}
+.testo h2{ 
+    font-size: xx-large;
+    color: rgb(133, 12, 52);
+}
+.lines{
+    display:flex;
+    justify-content: space-around;
+}
+.lines img{
+    width:300px;
+    height: 200px;
+}
+#titl{
+    color:rgb(79, 15, 85);
+    margin-top: 100px;
+    font-family:fantasy;
+}
+.lines h4{
+    color:rgb(109, 83, 168)!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lines p{
+    font-family:cursive!important;
+    font-size: large;
+}
+#get{
+    color:rgb(126, 42, 21);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family:fantasy;
+}
+.involved{
+    display: flex;
+    justify-content:space-between;
+}
+.involved img{
+    width:400px;
+    height: 300px;
+    margin:0, 30px;
+}
+.geted{
+    margin-left: 30px;
+ margin-right: 30px;
+}
+.geted h2{
+    font-family: serif;
+    margin-top:40px;
+    color:rgb(153, 92, 92);
+}
+.geted p{
+    font-family: cursive;
+    font-size: large;
+}
+ 
+ 
